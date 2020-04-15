@@ -1,0 +1,48 @@
+.alias {
+    cursor: alias;
+}
+
+body {
+    color: grey;
+    background: black;
+    font-family: calibri;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+#achtergrondvideo {
+    position: relative;
+}
+
+
+@media (min-width:80em) {
+
+    #knoppen {
+        position: absolute;
+        bottom: 0em;
+        margin-left: auto;
+margin-right: auto;
+        left: 0;
+right: 0;
+    }
+}
+
+
+
+h1 {
+    position: absolute;
+    font-size: 1, 5em;
+}
+
+
+
+img {
+    opacity: 0.5;
+    width: 130px;
+    cursor: pointer;
+}
+
+img:hover{
+    opacity: 1;
+}
